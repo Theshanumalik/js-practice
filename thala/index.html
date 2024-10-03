@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thala For a reason</title>
+    <!-- cdn tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1 class="my-10 text-center text-xl">Thala For a reason</h1>
+    <div class="text-lg text-center mb-5">
+      Last Thala is <span id="last-thala" class="text-bold"></span>
+    </div>
+    <form class="max-w-lg mx-auto flex gap-2" id="form">
+      <input
+        type="text"
+        placeholder="Enter text to check thala..."
+        class="border border-gray-300 p-2 rounded-lg flex-1"
+      />
+      <button type="submit" class="bg-blue-200 px-3 py-2 rounded-lg">
+        Check Thala
+      </button>
+    </form>
+
+    <div id="output" class="text-center my-4"></div>
+  </body>
+</html>
