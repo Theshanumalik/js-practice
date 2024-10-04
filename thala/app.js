@@ -4,6 +4,7 @@ const output = document.getElementById("output");
 const lastThala = document.getElementById("last-thala");
 
 let thalaInStorage = localStorage.getItem("thala") || "";
+// let thalaInStorage = sessionStorage.getItem("thala") || "";
 
 if (thalaInStorage) {
   lastThala.innerHTML = `<h3>Last Thala was ${thalaInStorage}</h3>`;
